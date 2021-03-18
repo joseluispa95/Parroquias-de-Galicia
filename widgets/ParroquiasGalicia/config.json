@@ -1,0 +1,4 @@
+{
+  "servicioConcellos": "http://ideg.xunta.es/servizos/rest/services/LimitesAdministrativos/LimitesAdministrativos/MapServer/12",
+  "servicioParroquias": "http://ideg.xunta.es/servizos/rest/services/LimitesAdministrativos/LimitesAdministrativos/MapServer/22"
+}

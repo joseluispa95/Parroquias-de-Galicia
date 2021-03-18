@@ -1,0 +1,23 @@
+<div class="contenedor">
+  <h1>Busca concellos e parroquias da Xunta de Galicia</h1>
+  <br>
+  <label for="provincias"><strong>Provincia</strong></label>
+
+  <select name="provincias" data-dojo-attach-event = "onchange:cargaConcellos" data-dojo-attach-point = "selectProvincia" class="form-select" aria-label="Default select example">
+    <option value="1">Seleccione provincia</option>
+    <option value="15"> A Coruña</option>
+    <option value="27">Lugo</option>
+    <option value="32">Ourense</option>
+    <option value="36">Pontevedra</option>
+  </select>
+
+  <br>
+  <label for="concello"><strong>Concellos:</strong></label><br>
+  <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="concellos" data-dojo-attach-point="selectConcellos" data-dojo-attach-event="onchange:cargaParroquias"></select>
+  <button data-dojo-attach-event="onclick:zoomConcello" >Buscar</button><br>
+
+  <br>
+  <label for="parroquias"><strong>Parroquias:</strong></label>
+  <select class="form-select form-select-sm" aria-label=".form-select-sm example" name="parroquias" data-dojo-attach-point="selectParroquias"></select>
+  <button data-dojo-attach-event="onclick:zoomParroquia" >Buscar</button>
+</div>
